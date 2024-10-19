@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadside Assistance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>24/7 Roadside Assistance</h1>
+        <p>We're just a call away when you need us!</p>
+        <a href="#services" class="cta-button">Our Services</a>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service">
+                <h3>Towing</h3>
+                <p>We provide reliable towing services to get you off the road safely.</p>
+            </div>
+            <div class="service">
+                <h3>Tire Change</h3>
+                <p>Flat tire? We’ll come to you and change it in no time.</p>
+            </div>
+            <div class="service">
+                <h3>Fuel Delivery</h3>
+                <p>Running low on gas? We deliver fuel to your location.</p>
+            </div>
+            <div class="service">
+                <h3>Lockout Service</h3>
+                <p>Locked out of your car? We can help you get back in quickly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required name="name">
+            <input type="email" placeholder="Your Email" required name="email">
+            <input type="text" placeholder="Service Type (e.g., Towing)" required name="serviceType">
+            <textarea placeholder="Describe your issue" required name="message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Roadside Assistance. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
